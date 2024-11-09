@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+.navbar-toggler{
+    background-color: rgb(149, 142, 134);
+}
+h1{
+    color: white;
+    font-size: 45px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.logo img {
+     width: 60px;
+     height: 53px;
+     
+}
+.hero{
+height: 100vh;
+width: 100%;
+background-image:url("https://www.godigit.com/content/dam/godigit/directportal/en/contenthm/tourist-places-kerala.jpg");
+background-size: cover;
+background-position: center;
+object-fit: cover;
+}
+.hero p{
+    color: white;
+}
+.navbar-nav{
+   display: flex;
+   align-items: center;
+   justify-content: space-between; 
+   display: flex;
+flex: auto;  
+}
+
+
+
+
+.navbar-nav li a{
+    list-style: none;
+    display: inline;
+    text-decoration: none;
+    margin: 40px;
+    font-size: 28px;
+   
+}
+
+.navbar-nav li a{
+    text-decoration: none;
+    color:#fcaa13e0;
+    font-weight: bold;
+}
+
+.navbar-nav li a:hover{
+    color:black;
+    transition: 0.3s;
+    border-bottom:2px solid rgb(87, 2, 2) ;
+
+}
+
+p{
+    display: flex;
+ flex-direction: column;
+ justify-content: center;
+ text-align: center;
+    font-size: 55px;
+}
+
+
+
+span{
+    color:	#f11414e7;
+}
+img{
+  position: relative; 
+  height: 100vh;
+    width: 100%;
+    background-position: center;
+   object-fit: cover;
+  
+
+}
+
+/* Content */
+
+
+.text p{
+    font-size: 34px;
+    line-height: 60px;
+}
+.text h3{
+    font-size: 35px;
+    margin-right: 100px;
+    color: brown;
+}
+.image h3{
+    font-size: 35px;
+    color: brown;
+}
